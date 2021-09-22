@@ -20,3 +20,10 @@ insert into student values(7,'raju',600,5);
 -- select command
 select * from student;
 select * from department;
+
+select distinct id ,name from student;
+
+select * from student where marks>500 and marks<800;
+
+select count(*) from student where marks>500;
+select count(*) from student where marks<400;
